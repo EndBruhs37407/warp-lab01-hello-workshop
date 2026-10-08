@@ -5,4 +5,4 @@ Aplikacja konsolowa .NET stworzenia podczas laboratorium.
 dotnet run
 \`\`\`
 ## Kontakt
-Autor: Student
+Autor: Student - Warsztat Programisty
