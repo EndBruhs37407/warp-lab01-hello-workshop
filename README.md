@@ -4,3 +4,5 @@ Aplikacja konsolowa .NET stworzenia podczas laboratorium.
 \`\`\`bash
 dotnet run
 \`\`\`
+## Kontakt
+Autor: Student
