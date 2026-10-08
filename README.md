@@ -8,3 +8,8 @@ dotnet run
 ## Kontakt
 Autor: Student (szymkowyrz)
 Zespół: Warsztat Programisty
+
+## Instrukcyja
+\`\`\`bash
+dotnet run
+\`\`\`
