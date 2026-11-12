@@ -13,4 +13,3 @@ jobs:
         run: echo "Runner is ready"
       - name: Checkout repository
         uses: actions/checkout@v4
-        run: echo "niekiepsko"
