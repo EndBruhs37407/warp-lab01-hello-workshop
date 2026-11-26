@@ -34,6 +34,9 @@ jobs:
       - name: Build project
         shell: bash
         run: dotnet build "$PROJECT_PATH" --configuration Release --no-restore
+      - name: Run project
+        shell: bash
+        run: dotnet run --project "$PROJECT_PATH" --configuration Release --no-build
       - name: Publish project
         shell: bash
         run: dotnet publish "$PROJECT_PATH" --configuration Release --no-restore --output ./artifacts/app
@@ -45,6 +48,3 @@ jobs:
           path: ./artifacts/app
           if-no-files-found: error
           retention-days: 7
-      - name: Run project
-        shell: bash
-        run: dotnet run --project "$PROJECT_PATH" --configuration Release --no-build
