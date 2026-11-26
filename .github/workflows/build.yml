@@ -7,7 +7,7 @@ on:
       - main
 env:
   DOTNET_VERSION: 10.0.x
-  PROJECT_PATH: ./HelloWorkshop.csproj
+  PROJECT_PATH: ./niemataikejsciezkiuuuuu/HelloWorkshop.csproj
 jobs:
   build:
     runs-on: ubuntu-latest
